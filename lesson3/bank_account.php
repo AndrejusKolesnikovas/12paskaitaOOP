@@ -89,8 +89,10 @@ class StudentAccount extends BankAccount
         return $amount;
     }
 }
+
 $studentAccount = new StudentAccount(1000);
 $studentAccount->deposit(1000);
+
 //echo $studentAccount->getBalance();
 
 class ChildAccount extends BankAccount
@@ -105,6 +107,7 @@ class ChildAccount extends BankAccount
 
     }
 }
+
 $childAccount = new ChildAccount(1000);
 $childAccount->spend(9);
 //echo $childAccount->getBalance();
