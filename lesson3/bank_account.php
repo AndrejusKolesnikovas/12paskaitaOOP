@@ -78,7 +78,6 @@ Prie balanso pridedamas palūkanas verskite į int tipą.
 Pavyzdys:
 $account = new SavingsAccount(1000);
 $account->addInterest(0.05);
-
 */
 
 class StudentAccount extends BankAccount
