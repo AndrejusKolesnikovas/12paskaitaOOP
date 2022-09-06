@@ -31,5 +31,3 @@ $productModifier = new ProductModifier();
 $productModifier->modify($product);
 var_dump($productModifier->modifyProductArray($productArray));
 print_r($productArray);
-
-
